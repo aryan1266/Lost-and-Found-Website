@@ -1,0 +1,135 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Lost and Found - Home</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Campus Lost & Found</h1>
+        <p>A simple place to find your lost belongings.</p>
+    </header>
+
+    <hr>
+
+    <nav>
+        <a href="index.html">Home</a> |
+        <a href="lost.html">Report Lost Item</a> |
+        <a href="found.html">Report Found Item</a> |
+        <a href="claim.html">Claim Item</a> |
+        <a href="#about">About</a>
+    </nav>
+
+    <hr>
+
+    <main>
+
+        <section>
+            <h2>Welcome to Lost & Found</h2>
+
+            <p>
+                Lost something in college? Or found something
+                that belongs to someone else?
+                You can report it here.
+            </p>
+
+            <a href="lost.html">
+                <button>Report Lost Item</button>
+            </a>
+
+            <a href="found.html">
+                <button>Report Found Item</button>
+            </a>
+        </section>
+
+        <hr>
+
+        <section>
+            <h2>Search for an Item</h2>
+
+            <form>
+                <label for="search">Item Name:</label>
+
+                <input type="search" id="search"
+                placeholder="Example: Water Bottle">
+
+                <label for="category">Category:</label>
+
+                <select id="category">
+                    <option>All Items</option>
+                    <option>Electronics</option>
+                    <option>ID Cards</option>
+                    <option>Books</option>
+                    <option>Other</option>
+                </select>
+
+                <button type="button">Search</button>
+            </form>
+        </section>
+
+        <hr>
+
+        <section>
+            <h2>Recently Reported Items</h2>
+
+            <article>
+                <h3>Blue Water Bottle</h3>
+
+                <img src="images/bottle.jpg"
+                alt="Blue Water Bottle" width="150">
+
+                <p><b>Status:</b> Lost</p>
+                <p><b>Location:</b> College Library</p>
+                <p><b>Date:</b> 20 October 2026</p>
+
+                <a href="claim.html">View / Claim Item</a>
+            </article>
+
+            <br>
+
+            <article>
+                <h3>Student ID Card</h3>
+
+                <img src="images/idcard.jpg"
+                alt="Student ID Card" width="150">
+
+                <p><b>Status:</b> Found</p>
+                <p><b>Location:</b> C Block</p>
+                <p><b>Date:</b> 22 October 2026</p>
+
+                <a href="claim.html">View / Claim Item</a>
+            </article>
+
+        </section>
+
+        <hr>
+
+        <section id="about">
+            <h2>About This Project</h2>
+
+            <p>
+                This website is made to help students report
+                and find lost belongings inside the college.
+                It is a part of our Web Designing PBL project.
+            </p>
+
+            <p>
+                SDG 11 - Sustainable Cities and Communities
+            </p>
+        </section>
+
+    </main>
+
+    <hr>
+
+    <footer>
+        <p>Campus Lost & Found | Web Designing PBL</p>
+        <p>Made by B.Tech CSE Students</p>
+    </footer>
+
+</body>
+</html>

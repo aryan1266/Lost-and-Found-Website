@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Claim Item</title>
+</head>
+
+<body>
+
+    <h1>Claim Your Item</h1>
+
+    <nav>
+        <a href="index.html">Home</a> |
+        <a href="lost.html">Report Lost</a> |
+        <a href="found.html">Report Found</a>
+    </nav>
+
+    <hr>
+
+    <p>
+        If you think an item belongs to you,
+        please provide the following details.
+    </p>
+
+    <form>
+
+        <label for="student">Student Name:</label><br>
+        <input type="text" id="student" required>
+
+        <br><br>
+
+        <label for="erp">ERP ID:</label><br>
+        <input type="text" id="erp" required>
+
+        <br><br>
+
+        <label for="item">Item Name:</label><br>
+        <input type="text" id="item" required>
+
+        <br><br>
+
+        <label for="proof">Proof of Ownership:</label><br>
+
+        <textarea id="proof" rows="4" cols="35"
+        placeholder="Mention something unique about your item"
+        required></textarea>
+
+        <br><br>
+
+        <label for="email">College Email:</label><br>
+        <input type="email" id="email" required>
+
+        <br><br>
+
+        <button type="submit">Submit Claim</button>
+        <button type="reset">Clear</button>
+
+    </form>
+
+    <hr>
+
+    <p>
+        Note: Ownership should be verified before
+        handing over any found item.
+    </p>
+
+    <a href="index.html">Back to Home</a>
+
+</body>
+</html>

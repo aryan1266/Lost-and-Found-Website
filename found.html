@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Report Found Item</title>
+</head>
+
+<body>
+
+    <h1>Report a Found Item</h1>
+
+    <nav>
+        <a href="index.html">Home</a> |
+        <a href="lost.html">Lost Item</a> |
+        <a href="found.html">Found Item</a>
+    </nav>
+
+    <hr>
+
+    <p>
+        Found something on campus?
+        Fill in the details so the owner can identify it.
+    </p>
+
+    <form>
+
+        <label for="item">Item Name:</label><br>
+        <input type="text" id="item" required>
+
+        <br><br>
+
+        <label for="category">Category:</label><br>
+
+        <select id="category" required>
+            <option value="">Select Category</option>
+            <option>Electronics</option>
+            <option>ID Card</option>
+            <option>Books</option>
+            <option>Accessories</option>
+            <option>Other</option>
+        </select>
+
+        <br><br>
+
+        <label for="description">Item Description:</label><br>
+
+        <textarea id="description" rows="4" cols="35"
+        required></textarea>
+
+        <br><br>
+
+        <label for="date">Date Found:</label><br>
+        <input type="date" id="date" required>
+
+        <br><br>
+
+        <label for="location">Found Location:</label><br>
+        <input type="text" id="location" required>
+
+        <br><br>
+
+        <label for="photo">Upload Photo:</label><br>
+        <input type="file" id="photo" accept="image/*">
+
+        <br><br>
+
+        <label for="email">Your Email:</label><br>
+        <input type="email" id="email" required>
+
+        <br><br>
+
+        <button type="submit">Submit Report</button>
+        <button type="reset">Clear Form</button>
+
+    </form>
+
+    <hr>
+
+    <a href="index.html">Back to Home</a>
+
+</body>
+</html>
